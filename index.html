@@ -1,0 +1,107 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets/img/infotech.png" style="height: 50px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Course List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Course Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Articles</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>&nbsp;&nbsp;
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Register</button>
+      </form>
+      
+    </div>
+  </div>
+</nav>
+<style>body {
+  background-image: url('/assets/img/ublogo1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}</style>
+ <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Course Code</label>
+            <input type="email" class="form-control" id="Course Code">
+        
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Course Description</label>
+            <input type="email" class="form-control" id="Course Description">
+          
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Course Type</label>
+            <input type="email" class="form-control" id="Course Type" >
+            
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Pre-requisite</label>
+            <input type="email" class="form-control" id="Pre-requisite">
+          
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Co-requisite</label>
+            <input type="email" class="form-control" id="Co-requisite">
+          
+          <div class="mb-3">
+            <label  class="form-label">Number Of Units</label>
+            <input type="email" class="form-control" id="NumberOfUnits">
+        
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Add Course</a>
